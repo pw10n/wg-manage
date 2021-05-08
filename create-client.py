@@ -97,3 +97,5 @@ execute("sudo wg-quick save wg0")
 logging.info("======================")
 logging.info(" created new client w/ ip: " + clientip)
 logging.info("======================")
+
+os.system("cd " + client_dir + "; qrencode -t ansiutf8 < " + client_config_filename)
