@@ -1,7 +1,7 @@
 # wg-manage
 Scripts to provision clients for Wireguard. Written to run on the same Linux box as the Wireguard server.
 
-## prerequsites
+## prerequisites
  * wireguard - installed, configured and running.
  * qrencode - installed.
 
@@ -16,4 +16,4 @@ Scripts to provision clients for Wireguard. Written to run on the same Linux box
 
 ## usage
 `python3 create-client.py my-client`
-This creates a new directory in `clients/my-client` containing they keys, a qr png (for a mobile client to scan), and a config file (for all other clients).
+This creates a new directory `clients/my-client` containing they keys, a qr png (for a mobile client to scan), and a config file (for all other clients).
